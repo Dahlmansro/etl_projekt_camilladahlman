@@ -20,23 +20,24 @@ transformerar det och sparar det i en SQLite-databas. Flödet loggar både norma
 ```bash
 etl_vader/
 │
-├── src/                 
-│   ├── main.py          # Huvudflödet (exekveras manuellt eller via schemaläggning)
-│   ├── smoke_api.py     # Hälsokontroller av API
+├── src/
+│   ├── main.py
+│   └── smoke_api.py
 │
-├── tests/               
+├── tests/
 │   ├── test_main.py
 │   └── test_healthcheck_unit.py
 │
-├── data/                # Databas & rådata
-│   └── weather.db       # SQLite-databas med tabellen weather_forecast
+├── data/                      # Riktig databas skapas lokalt som 'weather.db' 
+│   └── example_weather.db     # Exempel-DB inkluderad i repo’t för granskning
 │
-├── logs/                
-│   └── etl.log
+├── logs/                      # Riktiga loggar skapas lokalt 
+│   └── example_etl.log        # Exempel-logg inkluderad i repo’t för granskning
 │
-├── config.yaml          # Projektets konfigurationsfil (API-parametrar, DB, loggning)
-├── requirements.txt     # Python-paket för projektet
-└── README.md            
+├── config.yaml
+├── requirements.txt
+└── README.md
+        
 
 
 ````
@@ -121,6 +122,23 @@ Exempel på logg:
 ```
 
 ---
+
+📎 Exempelfiler & versionshantering
+
+För att hålla repo’t lättviktigt och reproducibelt versioneras inte de riktiga körfilerna (loggar och SQLite-databas), eftersom de ändras vid varje körning.
+I stället ligger exempelfiler med så att granskare kan verifiera att flödet fungerar.
+Inkluderat i repo’t:
+logs/example_etl.log – exempel på logg.
+data/example_weather.db – exempel på SQLite-databas med tabellen weather_forecast.
+
+Återskapa riktiga filer lokalt
+
+Efter att du klonat repo’t kan du köra:
+python src/main.py
+
+Det skapar/uppdaterar:
+Databas: data/weather.db
+Logg: logs/etl.log
 
 ## ✅ Tester
 
