@@ -5,14 +5,13 @@ __pycache__/
 # Virtuell miljö
 .venv/
 
-# Loggar och databaser
-logs/
-*.log
-*.sqlite
-*.db
-data/**/*.db
-data/**/weather.db
-weather.db
+# Loggar
+logs/*
+!logs/example_etl.log
+
+# Databas
+data/*
+!data/example_weather.db
 
 # Hemligheter
 .env
@@ -21,3 +20,4 @@ weather.db
 
 # VS Code
 .vscode/
+

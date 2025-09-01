@@ -1,0 +1,78 @@
+2025-09-01 11:45:38,486 | INFO | === Startar ETL-körning (Open-Meteo → SQLite) ===
+2025-09-01 11:45:38,486 | INFO | Startar API-hämtning...
+2025-09-01 11:45:38,963 | INFO | API-hämtning klar, ~7944 bytes rådata mottagna.
+2025-09-01 11:45:38,963 | INFO | Startar transformering...
+2025-09-01 11:45:39,224 | INFO | Filtrerade bort 11 passerade timmar (cut=2025-09-01 11:00:00)
+2025-09-01 11:45:39,224 | INFO | Transformering klar, 157 rader i DataFrame.
+2025-09-01 11:45:39,224 | INFO | DataFrame metadata: 157 rader, 6 kolumner.
+2025-09-01 11:45:39,225 | INFO | Tidsintervall i data: 2025-09-01 11:00:00 till 2025-09-07 23:00:00.
+2025-09-01 11:45:39,227 | INFO | Hade bara 1 historiska timmar; fyllde upp med 3 kommande. Intervall: 2025-09-01 11:00:00 → 2025-09-01 14:00:00.
+2025-09-01 11:45:39,230 | INFO | Startar skrivning till SQLite (data/weather.db:weather_forecast)...
+2025-09-01 11:45:39,268 | INFO | Skrev 4 rader till data/weather.db:weather_forecast
+2025-09-01 11:45:39,268 | INFO | Databasuppdatering klar.
+2025-09-01 11:45:39,268 | INFO | === ETL-körning klar på 0.79 sekunder ===
+2025-09-01 12:22:24,638 | INFO | === Startar ETL-körning (Open-Meteo → SQLite) ===
+2025-09-01 12:22:24,638 | INFO | Startar API-hämtning...
+2025-09-01 12:22:25,164 | INFO | API-hämtning klar, ~7924 bytes rådata mottagna.
+2025-09-01 12:22:25,164 | INFO | Startar transformering...
+2025-09-01 12:22:25,480 | INFO | Filtrerade bort 12 passerade timmar (cut=2025-09-01 12:00:00)
+2025-09-01 12:22:25,480 | INFO | Transformering klar, 156 rader i DataFrame.
+2025-09-01 12:22:25,480 | INFO | DataFrame metadata: 156 rader, 6 kolumner.
+2025-09-01 12:22:25,480 | INFO | Tidsintervall i data: 2025-09-01 12:00:00 till 2025-09-07 23:00:00.
+2025-09-01 12:22:25,480 | INFO | Hade bara 1 historiska timmar; fyllde upp med 3 kommande. Intervall: 2025-09-01 12:00:00 → 2025-09-01 15:00:00.
+2025-09-01 12:22:25,480 | INFO | Startar skrivning till SQLite (data/weather.db:weather_forecast)...
+2025-09-01 12:22:25,554 | INFO | Skrev 4 rader till data/weather.db:weather_forecast
+2025-09-01 12:22:25,555 | INFO | Databasuppdatering klar.
+2025-09-01 12:22:25,555 | INFO | === ETL-körning klar på 0.92 sekunder ===
+2025-09-01 13:53:16,047 | INFO | === Startar ETL-körning (Open-Meteo → SQLite) ===
+2025-09-01 13:53:16,047 | INFO | Startar API-hämtning...
+2025-09-01 13:53:16,684 | INFO | API-hämtning klar, ~7925 bytes rådata mottagna.
+2025-09-01 13:53:16,684 | INFO | Startar transformering...
+2025-09-01 13:53:17,206 | INFO | Filtrerade bort 13 passerade timmar (cut=2025-09-01 13:00:00)
+2025-09-01 13:53:17,206 | INFO | Transformering klar, 155 rader i DataFrame.
+2025-09-01 13:53:17,206 | INFO | DataFrame metadata: 155 rader, 6 kolumner.
+2025-09-01 13:53:17,206 | INFO | Tidsintervall i data: 2025-09-01 13:00:00 till 2025-09-07 23:00:00.
+2025-09-01 13:53:17,206 | INFO | Hade bara 1 historiska timmar; fyllde upp med 3 kommande. Intervall: 2025-09-01 13:00:00 → 2025-09-01 16:00:00.
+2025-09-01 13:53:17,206 | INFO | Startar skrivning till SQLite (data/weather.db:weather_forecast)...
+2025-09-01 13:53:17,285 | INFO | Skrev 4 rader till data/weather.db:weather_forecast
+2025-09-01 13:53:17,285 | INFO | Databasuppdatering klar.
+2025-09-01 13:53:17,285 | INFO | === ETL-körning klar på 1.25 sekunder ===
+2025-09-01 15:41:38,683 | INFO | === Startar ETL-körning (Open-Meteo → SQLite) ===
+2025-09-01 15:41:38,683 | INFO | Startar API-hämtning...
+2025-09-01 15:41:39,216 | INFO | API-hämtning klar, ~7925 bytes rådata mottagna.
+2025-09-01 15:41:39,228 | INFO | Startar transformering...
+2025-09-01 15:41:39,472 | INFO | Filtrerade bort 15 passerade timmar (cut=2025-09-01 15:00:00)
+2025-09-01 15:41:39,472 | INFO | Transformering klar, 153 rader i DataFrame.
+2025-09-01 15:41:39,472 | INFO | DataFrame metadata: 153 rader, 6 kolumner.
+2025-09-01 15:41:39,472 | INFO | Tidsintervall i data: 2025-09-01 15:00:00 till 2025-09-07 23:00:00.
+2025-09-01 15:41:39,481 | INFO | Hade bara 1 historiska timmar; fyllde upp med 3 kommande. Intervall: 2025-09-01 15:00:00 → 2025-09-01 18:00:00.
+2025-09-01 15:41:39,481 | INFO | Startar skrivning till SQLite (data/weather.db:weather_forecast)...
+2025-09-01 15:41:39,545 | INFO | Skrev 4 rader till data/weather.db:weather_forecast
+2025-09-01 15:41:39,545 | INFO | Databasuppdatering klar.
+2025-09-01 15:41:39,545 | INFO | === ETL-körning klar på 0.86 sekunder ===
+2025-09-01 15:41:46,856 | INFO | === Startar ETL-körning (Open-Meteo → SQLite) ===
+2025-09-01 15:41:46,856 | INFO | Startar API-hämtning...
+2025-09-01 15:41:47,332 | INFO | API-hämtning klar, ~7920 bytes rådata mottagna.
+2025-09-01 15:41:47,333 | INFO | Startar transformering...
+2025-09-01 15:41:47,639 | INFO | Filtrerade bort 15 passerade timmar (cut=2025-09-01 15:00:00)
+2025-09-01 15:41:47,639 | INFO | Transformering klar, 153 rader i DataFrame.
+2025-09-01 15:41:47,639 | INFO | DataFrame metadata: 153 rader, 6 kolumner.
+2025-09-01 15:41:47,639 | INFO | Tidsintervall i data: 2025-09-01 15:00:00 till 2025-09-07 23:00:00.
+2025-09-01 15:41:47,650 | INFO | Hade bara 1 historiska timmar; fyllde upp med 3 kommande. Intervall: 2025-09-01 15:00:00 → 2025-09-01 18:00:00.
+2025-09-01 15:41:47,650 | INFO | Startar skrivning till SQLite (data/weather.db:weather_forecast)...
+2025-09-01 15:41:47,689 | INFO | Skrev 4 rader till data/weather.db:weather_forecast
+2025-09-01 15:41:47,690 | INFO | Databasuppdatering klar.
+2025-09-01 15:41:47,690 | INFO | === ETL-körning klar på 0.83 sekunder ===
+2025-09-01 16:00:05,044 | INFO | === Startar ETL-körning (Open-Meteo → SQLite) ===
+2025-09-01 16:00:05,044 | INFO | Startar API-hämtning...
+2025-09-01 16:00:05,587 | INFO | API-hämtning klar, ~7924 bytes rådata mottagna.
+2025-09-01 16:00:05,588 | INFO | Startar transformering...
+2025-09-01 16:00:05,895 | INFO | Filtrerade bort 16 passerade timmar (cut=2025-09-01 16:00:00)
+2025-09-01 16:00:05,895 | INFO | Transformering klar, 152 rader i DataFrame.
+2025-09-01 16:00:05,895 | INFO | DataFrame metadata: 152 rader, 6 kolumner.
+2025-09-01 16:00:05,895 | INFO | Tidsintervall i data: 2025-09-01 16:00:00 till 2025-09-07 23:00:00.
+2025-09-01 16:00:05,900 | INFO | Hade bara 1 historiska timmar; fyllde upp med 3 kommande. Intervall: 2025-09-01 16:00:00 → 2025-09-01 19:00:00.
+2025-09-01 16:00:05,900 | INFO | Startar skrivning till SQLite (data/weather.db:weather_forecast)...
+2025-09-01 16:00:05,966 | INFO | Skrev 4 rader till data/weather.db:weather_forecast
+2025-09-01 16:00:05,966 | INFO | Databasuppdatering klar.
+2025-09-01 16:00:05,966 | INFO | === ETL-körning klar på 0.93 sekunder ===
