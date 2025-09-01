@@ -11,7 +11,7 @@ transformerar det och sparar det i en SQLite-databas. Flödet loggar både norma
 - Hantera exceptions och logga dem i en loggfil.  
 - Skriva automatiska tester i ett separat skript.  
 - Dokumentera koden enligt standard.  
-- Göra projektet körbart både manuellt och via schemaläggning (Windows/Mac).  
+- Göra projektet körbart både manuellt och via schemaläggning 
 
 ---
 
