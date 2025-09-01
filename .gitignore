@@ -1,0 +1,6 @@
+# Python / pytest cache
+__pycache__/
+.pytest_cache/
+
+# Virtuell miljö
+.venv/
