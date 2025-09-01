@@ -1,0 +1,21 @@
+# Basparametrar för Open-Meteo
+api:
+  base_url: "https://api.open-meteo.com/v1/forecast"
+  params:
+    latitude: 59.06709      
+    longitude: 15.75283
+    hourly: "temperature_2m,relative_humidity_2m,precipitation,wind_speed_10m,precipitation_probability"
+    timezone: "Europe/Stockholm"
+    forecast_days: 7
+
+storage:
+  sqlite_path: "data/weather.db"
+  table_name: "weather_forecast"
+
+run:
+  batch_id_prefix: "etl_run"
+  timeout_seconds: 15
+  max_retries: 3
+  backoff_seconds: 2
+  log_file: "logs/etl.log"
+

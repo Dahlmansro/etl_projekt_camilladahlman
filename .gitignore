@@ -1,0 +1,23 @@
+# Python / pytest cache
+__pycache__/
+.pytest_cache/
+
+# Virtuell miljö
+.venv/
+
+# Loggar och databaser
+logs/
+*.log
+*.sqlite
+*.db
+data/**/*.db
+data/**/weather.db
+weather.db
+
+# Hemligheter
+.env
+.env.*
+!*.example
+
+# VS Code
+.vscode/
